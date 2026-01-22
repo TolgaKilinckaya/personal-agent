@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.hero-bg {
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    rgba(15, 23, 42, 0.65),
+    rgba(15, 23, 42, 0.65)
+  );
+}
+
+.wave-divider {
+  position: relative;
+  height: 96px;
+  background: transparent;
+}
+
+.wave-divider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  height: 96px;
+  background: #ffffff;
+  clip-path: polygon(
+    0% 60%,
+    10% 68%,
+    22% 72%,
+    35% 70%,
+    50% 66%,
+    65% 62%,
+    78% 64%,
+    90% 70%,
+    100% 76%,
+    100% 100%,
+    0% 100%
+  );
+}
+
