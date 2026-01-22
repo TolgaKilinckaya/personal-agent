@@ -1,6 +1,0 @@
-{
-  "/agent/page": "app/agent/page.js",
-  "/page": "app/page.js",
-  "/api/rag/stats/route": "app/api/rag/stats/route.js",
-  "/api/rag/chat/route": "app/api/rag/chat/route.js"
-}
